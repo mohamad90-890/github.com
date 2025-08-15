@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width" />
+    <title>mohamad saed</title>
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+</head>
+
+<body class="Background">
+
+    <!-- Navbar -->
+    <div class="Navbar">
+        <a class="active" href="#Home">Home</a>
+        <a href="#Slideshow">Slideshow</a>
+        <a href="#About">About</a>
+        <a href="#GitHub">GitHub</a>
+        <a onclick="openForm()" ondblclick="closeForm(contact)" class="contact">Contact</a>
+    </div>
+
+    <!-- Background Video -->
+    <div id="Home">
+        <video autoplay muted loop id="Typing_Video">
+            <source src="https://ca.video.search.yahoo.com/video/play;_ylt=AwrEmJg9wZ9owQszIBw87olQ;_ylu=c2VjA3NyBHNsawN2aWQEZ3BvcwMyMA--?p=short+video+learning+without+sound&vid=88116637ab6cebd33f7514f57f01acb8&turl=https%3A%2F%2Ftse3.mm.bing.net%2Fth%2Fid%2FOVP.KkqB_QRBlrjSxudK9tzngQEsDh%3Fpid%3DApi%26h%3D225%26w%3D300%26c%3D7%26rs%3D1&rurl=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3De5Hc2B50Z7c&tit=Education+of+School+Intro+%3Cb%3EVideo%3C%2Fb%3E+for+No+Copyright+free+download&c=19&sigr=eX074p9SNEUt&sigt=MqsI4TxRlXlq&sigi=UvepeEeqb8sY&fr2=p%3As%2Cv%3Av&h=225&w=300&l=9&age=1608249705&fr=yhs-fc-4004_10&hsimp=yhs-4004_10&hspart=fc&type=fc_A8E837262B8_s58_g_e_d_n1_c999&param1=7&param2=eJwtjstqwzAURH9FywQk%2BV49HDtaNXH9AaWrCi0UR3WEn9gOLv36ohJmM5yZgWnj3Rr3USGAllJb6kZrHFrqErfUNda4siwtdXFOiRIcUXGUBUdMuA2TNa7xlrqnt8YN02%2Fse59pDuSwx%2FE%2B7SsZN4LAwZA9jrky5CdXR%2BLnuQ97uHVxy7Q8cZmTQ%2FfYhp6SPnaBtKHppiNpHss0hAxlySGJrP7bL%2FE1ScfW%2BDr7XMPy7wGxqgQAOwn9xhBrYJdCX1hVS11f1bU61e%2Bp36SyAKEZFAzyT4AzijNKXhbq6w%2Fev1GH&tt=b" type="video/mp4">
+            Your browser does not support HTML5 video.
+        </video>
+    </div>
+
+    <!-- Video Text -->
+    <div class="Video_Text">
+        <h1 class="white-text">mohamad saed's Portfolio</h1>
+        <strong>
+            <p class="center quote">
+                <q>Programming is the closest thing we have to magic—lines of logic that create living systems.</q>
+                <br>– MohammadSaed<br><br>
+                Hello! I'm Mohammad, a curious and motivated software development student.
+                <br>This portfolio is a window into the skills I've learned and the projects I've explored.
+                <br><br>
+                Thanks for stopping by—enjoy your visit!
+            </p>
+        </strong>
+    </div>
+
+    <!-- Slideshow -->
+    <div id="Slideshow">
+        <div id="Slideshow_Background">
+            <div id="Slideshow_Container">
+
+                <div class="mySlides fade">
+                    <img class="Slideshow_Images" src="https://tse4.mm.bing.net/th/id/OIP.4soq52H5dY5rCMPCbofcQAHaDv?pid=Api&P=0&h=180">
+                    <div class="text">Building ideas into reality, one line at a time.</div>
+                </div>
+                <div class="mySlides fade">
+                    <img class="Slideshow_Images" src="https://tse1.mm.bing.net/th/id/OIP.yDjQ_Y1EFDQX8EA_BbZUnwHaE8?pid=Api&rs=1&c=1&qlt=95&w=181&h=120>
+                    <div class="text">I code in HTML, CSS & JavaScript with confidence.</div>
+                </div>
+                <div class="mySlides fade">
+                    <img class="Slideshow_Images" src="https://tse1.mm.bing.net/th/id/OIP.yq84i3h4PGiaZRfYAjc51wHaFN?pid=Api&P=0&h=180">
+                    <div class="text">Love working with Python for data and logic tasks.</div>
+                </div>
+                <div class="mySlides fade">
+                    <img class="Slideshow_Images" src="https://tse1.mm.bing.net/th/id/OIP.ygi-RabRtTRf9k6cdO3FeAHaE8?pid=Api&P=0&h=180">
+                    <div class="text">Exploring C#, .NET, and building scalable solutions.</div>
+                </div>
+                <div class="mySlides fade">
+                    <img class="Slideshow_Images" src="https://tse4.mm.bing.net/th/id/OIP.mtWNWC_bRxQFZSBSILSvfQHaHa?pid=Api&P=0&h=180">
+                    <div class="text">Database integration using SQL and server-side logic.</div>
+                </div>
+                <div class="mySlides fade">
+                    <img class="Slideshow_Images" src="https://static.vecteezy.com/system/resources/previews/012/999/193/large_2x/selective-focus-at-pen-on-plain-notebook-paper-on-working-table-with-blurred-laptop-computer-at-the-background-work-or-study-from-home-concept-new-normal-after-covid-pandemic-free-photo.jpg">
+                    <div class="text"><a class="white-text contact" onclick="openForm()">Let's build something together!</a></div>
+                </div>
+
+                <!-- Slideshow navigation -->
+                <a class="Previous" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="Next" onclick="plusSlides(1)">&#10095;</a>
+            </div>
+            <br>
+            <div style="text-align: center">
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+                <span class="dot" onclick="currentSlide(4)"></span>
+                <span class="dot" onclick="currentSlide(5)"></span>
+                <span class="dot" onclick="currentSlide(6)"></span>
+            </div>
+        </div>
+    </div>
+
+    <!-- About -->
+    <div class="Row" id="About">
+        <div class="Column_2">
+            <img src="https://tse2.mm.bing.net/th/id/OIP.9PtKW5hu_3dDdKIxRQIR2wHaFz?pid=Api&P=0&h=180" alt="Laptop">
+        </div>
+        <div class="Column_1">
+            <h1>About</h1>
+            <p>
+                My name is mo and I’m a passionate learner and aspiring full-stack developer.
+                <br><br>
+                I’m currently expanding my knowledge in web technologies, cloud systems, and software architecture. I’m a proud graduate of
+                <a href="https://www.learncodinganywhere.com" target="_blank">The Tech Academy</a>’s Software Developer Boot Camp.
+                <br><br>
+                My training includes HTML, CSS, JavaScript, Python, SQL, and C#. I enjoy tackling technical challenges and working in collaborative environments.
+                <br><br>
+                <a onclick="openForm()" class="contact">Let’s connect and collaborate!</a>
+            </p>
+        </div>
+    </div>
+
+    <!-- GitHub -->
+    <div class="Row" id="GitHub">
+        <div class="Column_1">
+            <h1>GitHub</h1>
+            <p>Explore my personal and academic coding projects:</p>
+            <p class="center"><a href="https://github.com/mohamad90-890/github.com.git" target="_blank">My GitHub</a></p>
+        </div>
+        <div class="Column_2">
+            <a href="https://github.com/mohamad90-890/github.com.git" target="_blank">
+                <img src="https://cdn.pixabay.com/photo/2021/09/23/06/59/github-6648895_1280.jpg" alt="GitHub Logo">
+            </a>
+        </div>
+    </div>
+
+    <!-- Contact -->
+    <div id="Contact">
+        <button onclick="openForm()" class="Pop_Up_Button">CONTACT</button>
+        <div class="form-popup" id="myForm" ondblclick="closeForm()">
+            <form action="" method="POST" class="form-container">
+                <h1>Contact</h1>
+                <label for="name"><b>Name</b></label>
+                <input type="text" placeholder="Type your name here" name="name" required>
+                <label for="phone"><b>Phone</b></label>
+                <input type="text" placeholder="Type your phone number here" name="phone">
+                <label for="email"><b>Email</b></label>
+                <input type="text" placeholder="Type your email address here" name="email" required>
+                <label for="message"><b>Message</b></label>
+                <input type="text" placeholder="Type your message here" name="message">
+                <button type="submit" class="btn">SUBMIT</button>
+                <button type="button" class="btn cancel" onclick="closeForm()">CLOSE</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p class="center">&copy; mohamad, <a href="https://github.com/mohamad90-890/github.com.git" target="_blank">My GitHub</a></p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
+عرض
